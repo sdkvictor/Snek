@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import { BoardStyled, CellStyled, RowStyled } from './Board.styled';
 
 export interface BoardProps {
-  // title: string;
-  // color?: 'primary' | 'secondary';
-  // onClick?: () => void;
   grid: Array<Array<number>>;
   character: Array<number>;
   food: Array<number>;
