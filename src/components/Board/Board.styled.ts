@@ -13,9 +13,8 @@ const handleFillColor = (value:number) => {
 };
 
 export const BoardStyled = styled.div`
-  border: 1px solid;
-  border-color: ${colors.board};
-  width: 400px;
+  outline: 1px solid;
+  outline-color: ${colors.board};
 `;
 
 export const RowStyled = styled.div`
